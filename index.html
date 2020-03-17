@@ -1,30 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <style>
-    h3 {
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    }
-    .summary {
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    }
-    .container {
-      position: fixed;
+    #container {
+      position: absolute;
       top: 40%;
       left: 50%;
       -moz-transform: translateX(-50%) translateY(-50%);
       -webkit-transform: translateX(-50%) translateY(-50%);
       transform: translateX(-50%) translateY(-50%);
     }
-    .marker {
+    #footer {
+      position: absolute;
+      top: 90%;
+      left: 50%;
       font-family: "Courier New", Courier, monospace;
-      font-weight: bold;
-      font-size: 35px;
-    }
-    .sourceData {
-      position: fixed;
-      font-size: 12px;
-      font-weight: bold;
-      font-family: "Courier New", Courier, monospace;
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
     }
   </style>
   <head>
@@ -45,50 +37,16 @@
 
     <title>New Tab News</title>
   </head>
+
   <body style="background-color: #fff1e3;">
-    <div class="container">
-      <h3>
-        <div class="marker">Title:</div>
-        White House advises public to avoid groups of more than 10, asks people
-        to stay away from bars and restaurants
-      </h3>
-      <div class="marker">Summary:</div>
-      <div class="summary">
-        <ul>
-          <li>
-            The White House advised all Americans to avoid groups of more than
-            10 and urged older people to stay at home in a set of new guidelines
-            designed to fight a spreading coronavirus outbreak.
-          </li>
-          <li>
-            Dr. Anthony Fauci, director of the National Institute of Allergy and
-            Infectious Diseases, and Dr. Deborah Birx, a member of the White
-            House's coronavirus task force, were among the officials pressing
-            for the White House to issue more strenuous guidelines to slow the
-            spread of the virus, based on data from new tests and updated
-            modeling.
-          </li>
-          <li>
-            Still, the guidelines issued on Monday were only recommendations and
-            not mandates. Most are steps public health officials have been
-            pushing since the start of the outbreak, including staying home from
-            work when feeling sick and avoiding discretionary travel.
-          </li>
-        </ul>
-      </div>
-      <div class="sourceData">
-        <ul>
-          <li>
-            <a
-              href="https://www.cnn.com/2020/03/16/politics/white-house-guidelines-coronavirus/index.html"
-            >
-              Link to Original Article
-            </a>
-          </li>
-          <li>Published: March 16, 2020</li>
-          <li>Source: CNN</li>
-        </ul>
-      </div>
+    <div id="container">
+      <script src="script.js"></script>
+    </div>
+    <div id="footer">
+      <center>
+      Made by Len Huang and Evan Fang &copy; March 2020 </br>
+      <a href="https://github.com/lenghuang/jeopardy-capital-one/">GitHub</a>
+      </center>
     </div>
 
     <!-- Optional JavaScript -->
