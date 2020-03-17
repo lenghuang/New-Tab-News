@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <style>
-    h1 {
-      font-family: 'Courier New', Courier, monospace
-    }
     h3 {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
     .summary {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
     .container {
       position: fixed;
-      top: 50%;
+      top: 40%;
       left: 50%;
       -moz-transform: translateX(-50%) translateY(-50%);
       -webkit-transform: translateX(-50%) translateY(-50%);
       transform: translateX(-50%) translateY(-50%);
     }
+    .marker {
+      font-family: "Courier New", Courier, monospace;
+      font-weight: bold;
+      font-size: 35px;
+    }
     .sourceData {
       position: fixed;
-      font-family: 'Courier New', Courier, monospace
+      font-size: 12px;
+      font-weight: bold;
+      font-family: "Courier New", Courier, monospace;
     }
   </style>
   <head>
@@ -41,15 +45,15 @@
 
     <title>New Tab News</title>
   </head>
-  <body>
+  <body style="background-color: #fff1e3;">
     <div class="container">
-        <h1> Title: <h1>
-        <h3> 
-          White House advises public to avoid groups of more than 10,
-          asks people to stay away from bars and restaurants
-        </h3>
-        <h1>Summary:</h1>
-        <div class="summary">
+      <h3>
+        <div class="marker">Title:</div>
+        White House advises public to avoid groups of more than 10, asks people
+        to stay away from bars and restaurants
+      </h3>
+      <div class="marker">Summary:</div>
+      <div class="summary">
         <ul>
           <li>
             The White House advised all Americans to avoid groups of more than
@@ -71,7 +75,7 @@
             work when feeling sick and avoiding discretionary travel.
           </li>
         </ul>
-    </div>
+      </div>
       <div class="sourceData">
         <ul>
           <li>
