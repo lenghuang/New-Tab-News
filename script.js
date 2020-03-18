@@ -63,10 +63,12 @@ compressed.onload = function() {
     console.log("Loaded!");
     var jsonData = JSON.parse(compressed.responseText);
     var article = jsonData; // extra step just to maintain naming of possible loop
-    //for (const article of jsonData) {
-    makeTitle(article["title"]);
-    makeSumList(article["summary"]);
-    makeSourceData(article["source"]);
+    for (const article of jsonData) {
+      console.log(article["title"]);
+      makeTitle(article["title"]);
+      makeSumList(article["summary"]);
+      makeSourceData(article["source"]);
+    }
   } else {
     console.log("Not loaded :(");
   }
