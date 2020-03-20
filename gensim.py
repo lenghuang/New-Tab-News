@@ -1,7 +1,7 @@
 # Code Taken From
 # https://towardsdatascience.com/easily-scrape-and-summarize-news-articles-using-python-dfc7667d9e74
 
-from gensim.summarization import summarize
+from gensim.summarization.summarizer import summarize
 
 
 def read_article(file_name):
