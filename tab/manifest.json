@@ -1,0 +1,19 @@
+{
+  "name": "New Tab News",
+  "version": "1.0",
+  "description": "Using the power of natural language processing to make you a more informed citizen.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "news.png",
+    "default_popup": "popup.html",
+    "default_title": "NewTabNews"
+  },
+  "permissions": ["tabs"],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "manifest_version": 2
+}
