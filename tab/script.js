@@ -59,7 +59,7 @@ function safeLoad(xhr) {
 var compressed = new XMLHttpRequest();
 compressed.open(
   "GET",
-  "https://lenghuang.github.io/New-Tab-News/tab/dummy.json"
+  "https://raw.githubusercontent.com/lenghuang/New-Tab-News/master/tab/dummy.json"
 );
 compressed.onload = function () {
   if (safeLoad(compressed)) {
