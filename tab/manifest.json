@@ -1,6 +1,6 @@
 {
   "name": "New Tab News",
-  "version": "1.0",
+  "version": "3.14",
   "description": "Using the power of natural language processing to make you a more informed citizen.",
   "background": {
     "scripts": ["background.js"],
